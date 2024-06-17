@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:widgets_app/presentation/screens/cards/cards_screen.dart';
+
 
 import '../../../config/menu/menu_items.dart';
 
@@ -66,9 +66,9 @@ class _CustomListTile extends StatelessWidget {
 
 
         //Este comando es un push a las tarjetas para que puedan aparecer una atrás de la otra
-      // context.push(menuItem.link);
+         context.push(menuItem.link);
 
-          context.pushNamed( CardsScreen.name );
+          //context.pushNamed( CardsScreen.name );
 
       },
     );
