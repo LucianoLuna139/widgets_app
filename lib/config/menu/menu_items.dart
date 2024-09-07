@@ -16,8 +16,9 @@ class MenuItem {
 
 }
 
-//Acá se creaan todas las pantallas de la pag principal 
+//Acá se creaan todas las pantallas de la pag principal y se rutean con app_router.dart
 const appMenuItems = <MenuItem>[
+
 
     MenuItem(
       title: 'Botones', 
@@ -26,12 +27,14 @@ const appMenuItems = <MenuItem>[
       icon: Icons.smart_button_outlined
       ),
 
+
        MenuItem(
       title: 'Tarjetas', 
       subTitle: 'Un contenedor estilizado', 
       link: '/cards', 
       icon: Icons.credit_card
       ),
+
 
         MenuItem(
       title: 'Progress Indicators', 
@@ -40,11 +43,20 @@ const appMenuItems = <MenuItem>[
       icon: Icons.refresh_rounded
       ),
 
+
          MenuItem(
       title: 'Snackbars y diálogos', 
       subTitle: 'Indicadores y pantallas', 
       link: '/snackbars', 
       icon: Icons.info_outline
+      ),
+
+
+            MenuItem(
+      title: 'Animated container', 
+      subTitle: 'Stateful widget animado', 
+      link: '/animated', 
+      icon: Icons.check_box_outline_blank_rounded
       ),
 
 
